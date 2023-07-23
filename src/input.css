@@ -9,7 +9,7 @@ body {
 
 .typewriter p {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid orange; /* The typwriter cursor */
+  border-right: 0.15em solid #ea67a5; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.1em; /* Adjust as needed */
@@ -33,10 +33,10 @@ body {
     border-color: transparent;
   }
   50% {
-    border-color: orange;
+    border-color: #ea67a5;
   }
 }
 
 audio::-webkit-media-controls-panel {
-  background: linear-gradient(to right, #f97316, #facc15);
+  background: linear-gradient(to right, #e03c86, #f595c6);
 }
