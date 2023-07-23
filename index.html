@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anggay Srimaya</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body class="font-poppins">
+    <!-- Navber -->
+    <div
+      class="navbar fixed z-10 bg-gradient-to-r from-orange-500 to-yellow-400 text-base-200"
+    >
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-black"
+          >
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li>
+              <a href="#products">Produk</a>
+            </li>
+            <li><a href="second-page.html">Kebudayaan</a></li>
+          </ul>
+        </div>
+        <a
+          class="hover:scale-105 transition duration-500 font-bold lg:text-xl lg:ml-5"
+          >Anggay Srimaya</a
+        >
+      </div>
+      <div class="navbar-end hidden lg:flex">
+        <ul class="flex font-bold gap-5 mr-5">
+          <li class="hover:scale-110 transition duration-500">
+            <a href="#">Home</a>
+          </li>
+          <li class="hover:scale-110 transition duration-500">
+            <a href="#about">Tentang</a>
+          </li>
+          <li class="hover:scale-110 transition duration-500">
+            <a href="#products">Produk</a>
+          </li>
+          <li class="hover:scale-110 transition duration-500">
+            <a href="second-page.html">Kebudayaan</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Navbar -->
+
+    <!-- Hero Section -->
+    <section
+      class="hero min-h-screen"
+      style="background-image: url('dist/assets/img/bg-hero.jpg')"
+    >
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div
+          class="max-w-md flex flex-col justify-center items-center animate-fade-up animate-duration-[1250ms]"
+        >
+          <h1 class="mb-5 text-4xl lg:text-5xl font-bold">Anggay Srimaya</h1>
+          <div class="typewriter w-fit">
+            <p class="mb-5 text-xl lg:text-2xl">"Tagline Produk"</p>
+          </div>
+          <a
+            href="#products"
+            class="btn bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-500 transition duration-500 hover:scale-105 text-base-200 animate-jump-in animate-ease-linear animate-duration-[1000ms] animate-delay-[2000ms] mt-10"
+          >
+            Produk Kami
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section -->
+
+    <!-- About Section -->
+    <section class="flex flex-col items-center py-12 lg:py-24" id="about">
+      <div class="flex flex-col items-center gap-2 lg:gap-3">
+        <h1
+          class="text-2xl md:text-3xl lg:text-5xl font-bold text-gray-700"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          Apa itu Anggay Srimaya?
+        </h1>
+        <div
+          class="w-full h-1 bg-gradient-to-r from-orange-500 to-yellow-500 rounded-lg"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+        ></div>
+      </div>
+      <div
+        class="w-80 lg:w-[56rem] shadow-xl bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 rounded-lg mt-5 lg:mt-10 p-5 lg:p-8"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="700"
+      >
+        <p class="text-justify lg:text-lg">
+          <span
+            class="bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent text-lg lg:text-xl font-bold"
+            >Anggay Srimaya</span
+          >
+          merupakan produk fashion muslimah multifungsi yang di dalamnya
+          terdapat value budaya nusantara. Value budaya tersebut berasal dari
+          bahan dan elemen yang terdapat pada produk kami yaitu kain lurik, kain
+          batik, elemen wayang, lukisan peristiwa sejarah, dan lukisan kekayaan
+          nusantara. Selain itu, produk kami juga memanfaatkan bahan yang unik
+          yaitu kain goni dan kain glow in the dark. Kami juga menambahkan unsur
+          teknologi berupa AI (Artificial Intelligence) sebagai alat pemilihan
+          warna baju yang sesuai dengan customer dan kode QR (Quick Response)
+          yang berisi penjelasan dari value budaya yang terdapat dalam produk.
+          Selain itu, kami melakukan zero waste yaitu memanfaatkan kembali
+          limbah kain perca hasil produksi menjadi barang-barang yang
+          bermanfaat.
+        </p>
+      </div>
+    </section>
+    <!-- About Section -->
+
+    <!-- Produk Section -->
+    <section class="flex flex-col items-center py-12 lg:py-24" id="products">
+      <div class="flex flex-col items-center gap-2 lg:gap-3">
+        <h1
+          class="text-2xl md:text-3xl lg:text-5xl font-bold text-gray-700"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          Produk Anggay Srimaya
+        </h1>
+        <div
+          class="w-full h-1 bg-gradient-to-r from-orange-500 to-yellow-500 rounded-lg"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+        ></div>
+      </div>
+      <div class="flex flex-col gap-3 mt-10 lg:mt-12 mx-3">
+        <h2
+          class="bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent text-2xl lg:text-4xl font-bold text-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+        >
+          Produk A
+        </h2>
+        <div class="flex flex-wrap rounded-lg gap-3 lg:gap-8">
+          <div
+            class="w-40 lg:w-60 overflow-hidden rounded-lg shadow-lg"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1500"
+          >
+            <img
+              src="dist/assets/img/produk-a-1.jpg"
+              alt=""
+              class="hover:scale-110 transition duration-500 object-cover"
+            />
+          </div>
+          <div
+            class="w-40 lg:w-60 overflow-hidden rounded-lg shadow-lg"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1500"
+          >
+            <img
+              src="dist/assets/img/produk-a-2.jpg"
+              alt=""
+              class="hover:scale-110 transition duration-500 object-cover"
+            />
+          </div>
+          <div
+            class="w-40 lg:w-60 overflow-hidden rounded-lg shadow-lg"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1500"
+          >
+            <img
+              src="dist/assets/img/produk-a-3.jpg"
+              alt=""
+              class="hover:scale-110 transition duration-500 object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Produk Section -->
+
+    <!-- Keunggulan Section -->
+    <section
+      class="flex flex-col items-center py-12 lg:py-24 lg:px-10"
+      id="keunggulan"
+    >
+      <div class="flex flex-col items-center gap-2 lg:gap-3">
+        <h1
+          class="text-2xl md:text-3xl lg:text-5xl font-bold text-gray-700"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          Keunggulan Produk Kami
+        </h1>
+        <div
+          class="w-full h-1 bg-gradient-to-r from-orange-500 to-yellow-500 rounded-lg"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+        ></div>
+      </div>
+      <div
+        class="flex flex-col gap-2 w-80 lg:w-[56rem] shadow-xl bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 rounded-lg mt-5 lg:mt-10 p-5 lg:p-8"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="700"
+      >
+        <h1 class="font-bold text-xl lg:text-2xl">
+          <span
+            class="bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent"
+            >1. Saku Multifungsi</span
+          >
+        </h1>
+        <div class="flex flex-col lg:flex-row gap-3">
+          <div class="lg:w-1/3 lg:h-fit overflow-hidden rounded-lg shadow-lg">
+            <img
+              class="hover:scale-110 transition duration-500 object-cover"
+              src="dist/assets/img/saku-multi.jpg"
+            />
+          </div>
+          <div class="lg:w-2/3">
+            <p class="text-justify lg:text-lg">
+              Terbuat dari bahan serat alam yang masih jarang dimanfaatkan
+              yaitu, kain goni. Kami menggunakan kain goni sebagai bentuk upaya
+              kami dalam turut memanfaatkan sumber daya yang belum dimanfaatkan
+              dengan sempurna. Selain itu saku dalam produk tersebut dapat
+              digunakan menjadi tas sehingga customer mendapatkan dua fungsi
+              yang berbeda dari satu produk.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-2 w-80 lg:w-[56rem] shadow-xl bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 rounded-lg mt-5 lg:mt-10 p-5 lg:p-8"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <h1 class="font-bold text-xl lg:text-2xl">
+          <span
+            class="bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent"
+            >2. Jilbab Multifungsi</span
+          >
+        </h1>
+        <div class="flex flex-col lg:flex-row gap-3">
+          <div class="lg:w-1/3 lg:h-fit overflow-hidden rounded-lg shadow-lg">
+            <img
+              class="hover:scale-110 transition duration-500 object-cover"
+              src="dist/assets/img/jilbab-multi.jpg"
+            />
+          </div>
+          <div class="lg:w-2/3">
+            <p class="text-justify lg:text-lg">
+              Terbuat dari bahan yang nyaman untuk beraktivitas di dalam maupun
+              di luar ruangan. Jilbab ini memiliki bagian yang berlubang yaitu
+              pada bagian telinga. Namun hebatnya, lubang pada telinga tersebut
+              tidak akan terlihat ketika digunakan. Jilbab yang memiliki lubang
+              tersebut berfungsi sebagai tempat untuk membasuh telinga, sehingga
+              customer tidak akan kesulitan dalam berwudhu.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-2 w-80 lg:w-[56rem] shadow-xl bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 rounded-lg mt-5 lg:mt-10 p-5 lg:p-8"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <h1 class="font-bold text-xl lg:text-2xl">
+          <span
+            class="bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent"
+            >3. Elemen Glow In The Dark</span
+          >
+        </h1>
+        <div class="flex flex-col lg:flex-row gap-3">
+          <div class="lg:w-1/3 lg:h-fit overflow-hidden rounded-lg shadow-lg">
+            <img
+              class="hover:scale-110 transition duration-500 object-cover"
+              src="dist/assets/img/glow-in-the-dark.jpg"
+            />
+          </div>
+          <div class="lg:w-2/3">
+            <p class="text-justify lg:text-lg">
+              Elemen tersebut terbuat dari bahan yang dapat glow in the dark
+              atau dapat menyala dalam kegelapan. Elemen tersebut diciptakan
+              bertujuan sebagai bentuk kontribusi produk ini dalam mencegah
+              terjadinya kecelakaan di malam hari karena faktor kegelapan.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-2 w-80 lg:w-[56rem] shadow-xl bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 rounded-lg mt-5 lg:mt-10 p-5 lg:p-8"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <h1 class="font-bold text-xl lg:text-2xl">
+          <span
+            class="bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent"
+            >4. Menggunakan Teknologi AI</span
+          >
+        </h1>
+        <div class="flex flex-col lg:flex-row gap-3">
+          <div class="lg:w-1/3 lg:h-fit overflow-hidden rounded-lg shadow-lg">
+            <img
+              class="hover:scale-110 transition duration-500 object-cover"
+              src="dist/assets/img/teknologi-ai.jpg"
+            />
+          </div>
+          <div class="lg:w-2/3">
+            <p class="text-justify lg:text-lg">
+              Produk ini terdapat unsur teknologi di dalamnya yaitu berupa AI
+              (Artificial Intelligence). Penggunaan unsur teknologi tersebut
+              bertujuan sebagai alat pemilihan warna produk yang sesuai dengan
+              customer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-2 w-80 lg:w-[56rem] shadow-xl bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 rounded-lg mt-5 lg:mt-10 p-5 lg:p-8"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <h1 class="font-bold text-xl lg:text-2xl">
+          <span
+            class="bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent"
+            >5. Menggunakan Kode QR</span
+          >
+        </h1>
+        <div class="flex flex-col lg:block lg:flex-row gap-3">
+          <div
+            class="lg:w-1/3 lg:h-fit overflow-hidden rounded-lg shadow-lg lg:float-left lg:mr-3"
+          >
+            <img
+              class="hover:scale-110 transition duration-500 object-cover"
+              src="dist/assets/img/kode-qr.jpg"
+            />
+          </div>
+          <p class="text-justify lg:text-lg">
+            Kode QR terdapat pada bagian label produk ini sehingga customer
+            dapat dengan mudah mengakses kode QR tersebut. Penggunaan kode QR
+            ini bertujuan untuk memberikan edukasi kepada customer mengenai
+            penjelasan produk dan tutorial dalam penggunaan produk. Penjelasan
+            produk tersebut berupa informasi mengenai unsur budaya yang terdapat
+            dalam produk ini seperti penjelasan mengenai wayang, batik,
+            peninggalan sejarah, dan rumah adat nusantara. Informasi yang
+            disampaikan melalui kode QR tersebut berupa artikel bergambar dan VO
+            (Voice Over).
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-2 w-80 lg:w-[56rem] shadow-xl bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 rounded-lg mt-5 lg:mt-10 p-5 lg:p-8"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <h1 class="font-bold text-xl lg:text-2xl">
+          <span
+            class="bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent"
+            >6. Blazer Multifungsi</span
+          >
+        </h1>
+        <div class="flex flex-col lg:flex-row gap-3">
+          <div class="lg:w-1/3 lg:h-fit overflow-hidden rounded-lg shadow-lg">
+            <img
+              class="hover:scale-110 transition duration-500 object-cover"
+              src="dist/assets/img/teknologi-ai.jpg"
+            />
+          </div>
+          <div class="lg:w-2/3">
+            <p class="text-justify lg:text-lg">
+              Terbuat dari bahan yang nyaman untuk beraktivitas di dalam maupun
+              di luar ruangan. Menciptakan nuansa formal dan semiformal. Blazer
+              ini sangatlah unik karena dapat dijadikan menjadi belt yang
+              digunakan pada pinggang. Selain itu, salah satu bagian dari blazer
+              ini juga dapat dijadikan sebagai tas kecil yang dapat memperindah
+              penampilan customer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-2 w-80 lg:w-[56rem] shadow-xl bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 rounded-lg mt-5 lg:mt-10 p-5 lg:p-8"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <h1 class="font-bold text-xl lg:text-2xl">
+          <span
+            class="bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent"
+            >7. Vest Multifungsi dan Ramah Lingkungan</span
+          >
+        </h1>
+        <div class="flex flex-col lg:flex-row gap-3">
+          <div class="lg:w-1/3 lg:h-fit overflow-hidden rounded-lg shadow-lg">
+            <img
+              class="hover:scale-110 transition duration-500 object-cover"
+              src="dist/assets/img/teknologi-ai.jpg"
+            />
+          </div>
+          <div class="lg:w-2/3">
+            <p class="text-justify lg:text-lg">
+              Terbuat dari bahan yang diperoleh dari bahan sisa yang tidak
+              terpakai dari proses produksi produk kami. Sehingga, dalam proses
+              produksi kami tidak menghasilkan limbah lagi. Vest tersebut selain
+              memiliki fungsi sebagai pakaian namun juga dapat dijadikan sebagai
+              alat pendukung dalam berpakaian. Alat pendukung berpakaian
+              tersebut berbentuk tote bag dan tas gendong yang dapat memperindah
+              penampilan customer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Keunggulan Section -->
+
+    <!-- Contact Section -->
+    <section
+      class="flex flex-col justify-center items-center gap-8 lg:gap-16 pt-12 pb-24 lg:pt-24 lg:pb-48"
+    >
+      <div class="flex flex-col items-center gap-2 lg:gap-3">
+        <h1
+          class="text-2xl md:text-3xl lg:text-5xl font-semibold text-gray-700"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          More Information:
+        </h1>
+        <div
+          class="w-full h-1 bg-gradient-to-r from-orange-500 to-yellow-500 rounded-lg"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+        ></div>
+      </div>
+      <div
+        class="flex flex-col items-center px-5 lg:flex-row gap-3 text-base lg:text-xl font-semibold"
+      >
+        <div
+          class="bg-gradient-to-r from-green-600 to-green-400 hover:from-green-700 hover:to-green-500 transition duration-500 text-white py-3 px-4 rounded-full border-4 border-white hover:scale-[1.02] shadow-lg hover:shadow-xl w-64 lg:w-64"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="600"
+        >
+          <a href="" class="flex items-center justify-center gap-2"
+            ><i class="fab fa-whatsapp text-2xl"></i> +62 831-8994-1147</a
+          >
+        </div>
+        <div
+          class="bg-gradient-to-r from-purple-700 via-pink-600 to-orange-400 hover:from-purple-800 hover:via-pink-700 hover:to-orange-500 transition duration-500 text-white py-3 px-4 rounded-full border-4 border-white hover:scale-[1.02] shadow-lg hover:shadow-xl w-64 lg:w-64"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="700"
+        >
+          <a href="" class="flex items-center justify-center gap-2"
+            ><i class="fab fa-instagram text-2xl"></i> @anggaysrimaya_</a
+          >
+        </div>
+        <div
+          class="bg-gradient-to-r from-red-700 to-red-500 hover:from-red-800 hover:to-red-600 transition duration-500 text-white py-3 px-4 rounded-full border-4 border-white hover:scale-105 shadow-lg hover:shadow-xl w-64 lg:w-80"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="800"
+        >
+          <a href="" class="flex items-center justify-center gap-1">
+            <img src="dist/assets/img/gmail.svg" alt="" class="w-6" />
+            anggaysrimaya@gmail.com</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+
+    <!-- Footer Section -->
+    <footer
+      class="footer footer-center py-5 bg-gradient-to-r from-orange-500 to-yellow-400"
+    >
+      <div>
+        <p class="text-white text-lg font-semibold">
+          - Anggay Srimaya Web 2023 -
+        </p>
+      </div>
+    </footer>
+    <!-- Footer Section -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="dist/script.js"></script>
+  </body>
+</html>
